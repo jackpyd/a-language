@@ -1,0 +1,24 @@
+// 测试内置函数调用
+function sayHello(){
+    println("hello wolrd");
+}
+
+// 测试变量声明
+function variable(){
+    let a:string = "hello";
+    let b:bool = true;
+    let c:int = 123;
+    let d:float = 3.1415;
+    // 此时不会执行引用消解？
+    let e:string = d;
+
+}
+
+let x:string = "x";
+let y = x;
+
+
+
+sayHello();
+
+variable();
